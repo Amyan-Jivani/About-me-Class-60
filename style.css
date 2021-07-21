@@ -1,0 +1,79 @@
+body {
+    background: rgb(65, 63, 251);
+    background: radial-gradient(circle, rgba(65, 63, 251, 1) 0%, rgba(27, 181, 209, 1) 50%, rgba(70, 252, 219, 1) 100%);
+    text-align: center;
+    background-repeat: norepeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px #d11b1b;
+    font-size: 40px;
+}
+
+#bio {
+    font-size: 18;
+    padding: 20px;
+    text-allign: center;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    list-style: none;
+    float: left;
+    color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: black;
+}
+
+#codeimg {
+    margin-top: 80px;
+}
+
+#char {
+    font-family: Zen Tokyo Zoo;
+}
+
+#hobby {
+    font-family: Tourney;
+}
+
+.work {
+    background-color: black;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
